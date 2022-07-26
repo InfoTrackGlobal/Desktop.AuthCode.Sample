@@ -1,0 +1,19 @@
+﻿<Window x:Class="PMS.Sample.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PMS.Sample"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Rectangle HorizontalAlignment="Center" Height="75" Stroke="Black" VerticalAlignment="Top" Width="800" Fill="#FF9E9E9E"/>
+
+        <Label Content="HOP" HorizontalAlignment="Left" Margin="90,16,0,0" VerticalAlignment="Top" FontFamily="Calibri" FontSize="24" Height="38" FontWeight="Bold"/>
+        <Image HorizontalAlignment="Left" Height="51" Margin="21,10,0,0" VerticalAlignment="Top" Width="61" RenderTransformOrigin="0.167,-0.229" Source="/Jump.png"/>
+        <Button Content="InfoTrack Searches" HorizontalAlignment="Left" Margin="32,136,0,0" VerticalAlignment="Top" Width="155" FontFamily="Calibri" FontSize="14" Click="Button_Click"/>
+        <Label Content="Matter" HorizontalAlignment="Left" Height="28" Margin="32,103,0,0" VerticalAlignment="Top" Width="69"/>
+        <TextBox x:Name="txtMatter" HorizontalAlignment="Left" Height="19" Margin="101,108,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="86" Text="Demo"/>
+
+    </Grid>
+</Window>
